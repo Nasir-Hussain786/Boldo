@@ -1,0 +1,395 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+/* Header */
+
+header {
+    background-color: #0A2640;
+
+}
+
+/* Navbar style */
+
+nav {
+    padding: 56px 0px 72px 0px;
+    margin: 0px 70px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+
+}
+
+
+nav ul  {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a {
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#login-btn {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0A2640;
+    padding: 8px 40px;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* About section style */
+
+.about-title{
+    font-size: 20px;
+    color: #F1F1F1;
+    margin: auto;
+    width: 50px;
+    margin-bottom: 12px;
+}
+
+.about-text{
+    width: 842px;
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 84px;
+}
+
+.first-mover{
+    color: #F1F1F1;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    padding-bottom: 166px;
+    line-height: 28px;
+}
+
+
+/* five images section style */
+
+.five-images{
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.two-right-img img{ 
+    margin: 0px 50px 40px 0px;
+}
+
+.two-left-img img{
+    margin: 0px 0px 54px 50px;
+    height: 287px;
+    width: 302px;
+}
+
+.story-container{
+    margin: auto;
+    width: 800px;
+}
+
+.story-container :first-child{
+    color: #777777;
+    font-size: 20px;
+    margin: 122px 0px 12px 0px;
+}
+
+.story-container p:nth-child(2){
+    width: 840px;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.story-container p:nth-child(3){
+    width: 799px;
+    color: #777777;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 96px;
+}
+
+
+/* our number section */
+
+.numbers-section{
+    padding: 96px 100px 96px 100px;
+    background-color: #0A2640;
+    margin-bottom: 96px;
+}
+.numbers-title{
+    font-size: 20px;
+    color: #F1F1F1;
+    width: 120px;
+    margin: 0px auto 12px;
+}
+
+.section-subheading{
+    font-size: 48px;
+    line-height: 72px;
+    color: #fff;
+    width: 842px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 84px;
+}
+
+.feature-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-value{
+    font-size: 96px;
+    color:#4FE9A4;
+    margin-bottom: 32px;
+}
+
+.feature-description{
+    font-size: 24px;
+    color: #F1F1F1;
+}
+
+/* team section */
+.team-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 20px;
+    color: #777777;
+    margin-bottom: 12px;
+}
+
+.team-text{
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.team-content{
+    font-size: 20px;
+    color: #777777;
+    width: 750px;
+    line-height: 32px;
+    margin-bottom: 52px;
+}
+
+.profile > img{
+    width: 300px;
+    height: 354px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+}
+
+.profile-name{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.profile-text{
+    font-size: 20px;
+    color: #777777;
+}
+
+.team-profile-container{
+    display: flex;
+    gap: 51px;
+}
+
+
+/* our values section */
+
+.values-section{
+    padding: 120px 100px 48px 100px;
+    background-color: #0A2640;
+    margin: 120px 0px 154px 0px;
+}
+
+.values-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.values-heading{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.values-subheading{
+    font-size: 48px;
+    color: #F1F1F1;
+    margin-bottom: 22px;
+}
+
+.values-description{
+    font-size: 20px;
+    line-height: 32px;
+    color: #F1F1F1;
+    width: 750px;
+    margin-bottom: 72px;
+}
+
+/* commited section images style */
+.committed-section > img{
+    width: 150px;
+    height: 151px;
+    border-radius: 24px;
+}
+
+.committed-heading{
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.committed-description{
+    font-size: 20px;
+    color: #F1F1F1;
+    width: 600px;
+    line-height: 32px;
+}
+
+
+.committed-section{
+    display: flex;
+    gap: 51px;
+    margin-bottom: 72px;
+
+}
+
+.values-commited-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+
+/* start footer sytle */
+
+/*  Footer an enterprise  */
+.an-enterprise-section{
+    width: 1200px;
+    margin: auto;
+    border-radius: 12px;
+}
+.an-enterprise-box{
+    padding: 72px 242px;
+}
+.an-enterprise-section{
+    background-color: #0A2640;
+    background-image: url(./assests/bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 740px;
+}
+
+.an-enterprise-text{
+    font-size: 48px;
+    line-height: 72px;
+    color: #fff;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Two button style */
+.your-email-btn{
+    padding: 12px 158px 12px 32px;  
+    font-size: 20px;
+    border-radius: 240px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-right: 24px;
+}
+
+.start-now-btn{
+    padding: 16px 56px;
+    background-color: #65E4A3;
+    border-radius: 56px;
+    border: 2px solid #65E4A3;
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.two-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* footer links style */
+
+.logo-bottom-content{
+    width: 300px;
+    font-size: 16px;
+    color: #777777;
+    margin-block: 40px 64px;
+    line-height: 28px;
+}
+
+.all-right{
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 117px;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 130px;
+    margin-top: 184px;
+}
+
+.footer-logo-left{
+    margin-left: 75px;
+}
+
+.footer-links ul li{
+    list-style-type: none;
+    padding-bottom: 32px;
+}
+
+.footer-links ul li a{
+    color: #777777;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#anchor-bold{
+    color: black;
+    font-weight: 700;
+}
+
+
+.span-hiring{
+    background-color: #65E4A3;
+    font-size: 13px;
+    padding: 10px 14px;
+    font-weight: 700;
+    border-radius: 120px;
+    margin-left: 12px;
+}

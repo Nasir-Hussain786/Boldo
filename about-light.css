@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+/* Header */
+
+header {
+    background-color: #65E4A3;
+
+}
+
+/* Navbar style */
+
+nav {
+    padding: 60px 0px 96px 0px;
+    margin: 0px 70px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+
+}
+
+
+nav ul  {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a {
+    margin-right: 40px;
+    color: #0A2640;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#login-btn {
+    border: 2px solid #0A2640;
+    padding: 8px 40px;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* about and content box styling */
+.about {
+    font-size: 20px;
+    margin: 0px 0px 20px 70px;
+    color: #0A2640;    
+}
+
+.content-box{
+    display: flex;
+    margin: 0 70px;
+    padding-bottom: 100px;
+}
+
+.heading-text h3 {
+    width: 570px;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.Funding-text p {
+    width: 440px;
+    margin: 20px 0px 0px 100px;
+    line-height: 28px;
+    color: #0A2640;
+    font-size: 16px;
+}
+
+
+/* our memeber styling */
+.our-number{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 96px;
+    font-size: 20px;
+    color: #0A2640;
+}
+
+.mass-market{
+    line-height: 72px;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.stat-number h1{
+    font-size: 96px;
+    font-weight: 400;
+    color: #0A2640;
+}
+
+.stat-text {
+    font-size: 24px;
+    color: #0A2640;
+}
+
+.stat-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 84px;
+}
+
+
+/* Section three style */
+
+.section-three{
+    padding: 100px;
+    background-color: #0A2640;
+    color: #fff;
+    margin: 120px 0px;
+}
+
+.section-three{
+    display: flex;
+    justify-content: center;
+}
+
+.our-story{
+    width: 840px;
+}
+
+.story{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.our-story h1{
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.conversion{
+    width: 750px;
+    height: 168px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* section four style */
+
+.section-four{
+    display: flex;
+    margin: 60px 240px;
+}
+
+
+.our-team{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #777777;
+}
+
+.the-people{
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.focus{
+    width: 730px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+
+
+
+/* Man Images style */
+
+.man-images{
+    display: flex;
+    margin: 0px 190px;
+    
+}
+
+
+.img-group img {
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+    margin: 0px 70px 20px 12px;
+}
+
+.img-group .para-1{
+    font-size: 28px;
+    margin: 0px 0px 20px 10px;
+}
+
+.img-group .para-2{
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+    color: #777777;
+
+
+}
+
+/* Four Images  Style*/
+
+.four-images img{
+    width: 120px;
+    height: 120px;
+    border-radius: 24px;
+    margin: 20px;
+}
+
+.four-images{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.four-images{
+    margin: 110px auto;
+}
+
+.dwight-text{
+    font-size: 28px;
+    margin: 40px 150px 20px 0px; 
+    color: #000000;
+}
+
+.general-text{
+    font-size: 20px;
+    color: #777777;
+    
+}
+
+
+/* Section Five Style */
+
+
+.section-five{
+    padding: 120px 100px 120px 100px;
+    margin-bottom: 124px;
+    background-color: #0A2640;
+}
+
+/* Our Blog Text */
+.our-blog{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+/* Our Blog Below Text */
+
+.Value-proposition{
+    width: 800px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+/* Section five ke ander hr ke below wali styling */
+
+/* We are Commited */
+
+.commited{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+.we-are-commited{
+    font-size: 48px;
+}
+
+
+.commited-para{
+    width: 480px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+    
+}
+
+/* span style */
+
+span{
+    color: #69e6a6;
+}
+
+/* We are Responsible text */
+
+.responsible{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.we-are-responsible{
+    font-size: 48px;
+}
+
+.responsible-para{
+    width: 480px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+
+}
+
+/* We are Progress */
+.progress{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.we-are-progress{
+    font-size: 48px;
+}
+
+.progress-para{
+    width: 480px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+
+}
+
+
+
+/* start footer sytle */
+
+/*  Footer an enterprise  */
+.an-enterprise-section{
+    width: 1200px;
+    margin: auto;
+    border-radius: 12px;
+}
+.an-enterprise-box{
+    padding: 72px 242px;
+}
+.an-enterprise-section{
+    background-color: #0A2640;
+    background-image: url(./assests/bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 740px;
+}
+
+.an-enterprise-text{
+    font-size: 48px;
+    line-height: 72px;
+    color: #fff;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Two button style */
+.your-email-btn{
+    padding: 12px 158px 12px 32px;  
+    font-size: 20px;
+    border-radius: 240px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-right: 24px;
+}
+
+.start-now-btn{
+    padding: 16px 56px;
+    background-color: #65E4A3;
+    border-radius: 56px;
+    border: 2px solid #65E4A3;
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.two-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* footer links style */
+
+.logo-bottom-content{
+    width: 300px;
+    font-size: 16px;
+    color: #777777;
+    margin-block: 40px 64px;
+    line-height: 28px;
+}
+
+.all-right{
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 117px;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 130px;
+    margin-top: 184px;
+}
+
+.footer-logo-left{
+    margin-left: 75px;
+}
+
+.footer-links ul li{
+    list-style-type: none;
+    padding-bottom: 32px;
+}
+
+.footer-links ul li a{
+    color: #777777;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#anchor-bold{
+    color: black;
+    font-weight: 700;
+}
+
+
+.span-hiring{
+    background-color: #65E4A3;
+    font-size: 13px;
+    padding: 10px 14px;
+    font-weight: 700;
+    border-radius: 120px;
+    margin-left: 12px;
+    color: black;
+}

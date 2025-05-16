@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+
+/* Navbar style */
+
+nav {
+    padding: 60px 0px 72px 0px;
+    margin: 0px 70px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a {
+    margin-right: 40px;
+    color: #0A2640;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#login-btn {
+    border: 2px solid #0A2640;
+    padding: 8px 40px;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+/*  blog text thousand section  */
+.blog-title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #777777;
+}
+
+.blog-text{
+    font-size: 64px;
+    text-align: center;
+    color: #0A2640;
+    margin-bottom: 67px;
+}
+
+.blog-image-one{
+    width: 550px;
+    height: 386px;
+}
+
+.blog-img-right{
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 12px;
+}
+
+.blog-category{
+    font-size: 16px;
+    color: #0A2640;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.blog-r-text{
+    font-size: 48px;
+    line-height: 72px;
+    width: 535px;
+}
+
+.blog-section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 0px 70px;
+    border-bottom: 1px solid #0A2640;
+    padding-bottom: 72px;
+}
+
+.blog-profile-1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.blog-profile-1 p{
+    margin-left: 12px;
+}
+
+
+/* Latest news section */
+.latest-news-section{
+    margin: 0px 150px;
+}
+
+.latest-n-s{
+    display: flex;
+    gap: 50px;
+}
+
+.latest-news{
+    font-size: 48px;
+    margin-top: 96px;
+}
+
+.news-b-img-2{
+    margin-top: 196px;
+}
+
+.news-b-img{
+    margin-top: 45px;
+}
+.b-p-1-title{
+    font-size: 16px;
+    color: #777777;
+    margin: 24px 0px 12px 0px;
+}
+
+.blog-c{
+    font-size: 16px;
+    color: #0A2640;
+    font-weight: 700;
+}
+
+.profile-t{
+    width: 300px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.profile-with-text{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 80px 0px;
+}
+
+.profile-with-text p{
+    margin-left: 12px;
+}
+
+.profile-with-t{
+    display: flex;
+    align-items: center;
+    margin: 85px 0px 80px 0px ;
+}
+
+.profile-with-t p{
+    margin-left: 12px;
+}
+
+/* three images below again three images */
+
+.three-img-again{
+    display: flex;
+    gap: 50px;
+}
+
+
+/* button style */
+
+.load-btn{
+    padding: 16px 56px;
+    font-size: 20px;
+    color: #0A2640;
+    border: 2px solid #0A2640;
+    background-color: #fff;
+    border-radius: 56px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.load-m{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 124px 0px;
+}
+
+
+/* start footer sytle */
+
+/*  Footer an enterprise  */
+.an-enterprise-section{
+    width: 1200px;
+    margin: auto;
+    border-radius: 12px;
+}
+.an-enterprise-box{
+    padding: 72px 242px;
+}
+.an-enterprise-section{
+    background-color: #0A2640;
+    background-image: url(./assests/bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 740px;
+}
+
+.an-enterprise-text{
+    font-size: 48px;
+    line-height: 72px;
+    color: #fff;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Two button style */
+.your-email-btn{
+    padding: 12px 158px 12px 32px;  
+    font-size: 20px;
+    border-radius: 240px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-right: 24px;
+}
+
+.start-now-btn{
+    padding: 16px 56px;
+    background-color: #65E4A3;
+    border-radius: 56px;
+    border: 2px solid #65E4A3;
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.two-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* footer links style */
+
+.logo-bottom-content{
+    width: 300px;
+    font-size: 16px;
+    color: #777777;
+    margin-block: 40px 64px;
+    line-height: 28px;
+}
+
+.all-right{
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 117px;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 130px;
+    margin-top: 184px;
+}
+
+.footer-logo-left{
+    margin-left: 75px;
+}
+
+.footer-links ul li{
+    list-style-type: none;
+    padding-bottom: 32px;
+}
+
+.footer-links ul li a{
+    color: #777777;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#anchor-bold{
+    color: black;
+    font-weight: 700;
+}
+
+
+.span-hiring{
+    background-color: #65E4A3;
+    font-size: 13px;
+    padding: 10px 14px;
+    font-weight: 700;
+    border-radius: 120px;
+    margin-left: 12px;
+}

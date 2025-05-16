@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+/* Header */
+
+header {
+    background-color: #0A2640;
+    background-image: url(./assests/bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 850px;
+
+}
+
+/* Navbar style */
+
+nav {
+    padding: 56px 0px 64px 0px;
+    margin: 0px 70px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+
+}
+
+
+nav ul  {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a {
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#login-btn {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0A2640;
+    padding: 8px 40px;
+    font-size: 16px;
+    border-radius: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* section-content style */
+
+.section-content{
+    display: flex;
+    gap: 172px;
+    margin: 0px 70px;
+}
+.section-content .section-title{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    width: 540px;
+    margin-top: 56px;
+}
+
+.section-text{
+    font-size: 16px;
+    color: #B8C1C7;
+    width: 540px;
+    margin-bottom: 40px;
+    line-height: 32px;
+}
+
+.section-content .buy-template-btn{
+    background-color: #65E4A3;
+    font-size: 20px;
+    color: #0A2640;
+    font-weight: 700;
+    padding: 16px 56px;
+    border-radius: 56px;
+    border: 2px solid #69E6A6;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.explore-btn{
+    background-color: transparent;
+    border:  2px solid #FFFFFF;
+    padding: 16px 56px;
+    border-radius: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.right-side-img {
+    margin-bottom: 56px;
+}
+
+.six-logos{
+    margin: 0px 70px;
+}
+
+/* services-section */
+
+.service-title{
+    font-size: 20px;
+    color: #777777;
+    margin: 84px 0px 12px 0px;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 48px;
+    width: 780px;
+    text-align: center;
+    line-height: 72px;
+    margin: auto;
+}
+
+.section-image{
+    margin-bottom: 24px;
+}
+
+.feature-title{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.feature-description{
+    font-size: 20px;
+    width: 280px;
+    color: #777777;
+    line-height: 32px;
+    margin-bottom: 28px;
+}
+
+.explore-link{
+    font-size: 20px;
+    color: #0A2640;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.text-with-arrow{
+    margin-left: 12px;
+}
+
+.services-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-image-container{
+    display: flex;
+    gap: 100px;
+    margin: 80px 0px 185px 0px;
+}
+
+/* Man one mobile image style */
+
+.man-on-mb-container{
+    position: relative;
+    display: flex;
+    gap: 150px;
+}
+
+.man-on-mb-stat{
+    position: absolute;
+    left: 155px;
+    top: 190px;
+}
+
+.image-on-mb-title{
+    font-size: 36px;
+    line-height: 56px;
+    width: 493px;
+    margin-bottom: 40px;
+}
+
+.using-list ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.image-text::before{
+    content: url(./assests/check.png);
+    margin-right: 27px;
+}
+
+.text-b-space{
+    margin-bottom: 32px;
+}
+
+.start-now-btn{
+    background-color: #0A2640;
+    padding: 16px 56px;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* start now button bottom style */
+
+.start-btn-bottom{
+    font-size: 36px;
+    width: 453px;
+    line-height: 56px;
+    margin-bottom: 64px;
+}
+
+.start-btn-bottom-container ul li{
+    list-style: none;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.list-img-1::before{
+    content: url(./assests/star.png);
+    margin-right: 14px;
+    padding: 15px;
+}
+
+.list-img-1{
+    background-color: #0A2640;
+    width: 500px;
+    color: #fff;
+}
+
+.list-img-2::before{
+    content: url(./assests/eye-icon.png);
+    margin-right: 14px;
+    padding: 15px;
+}
+
+.list-img-3::before{
+    content: url(./assests/sun.png);
+    margin-right: 14px;
+    padding: 15px;
+}
+
+.start-btn-bottom-container{
+    display: flex;
+    gap: 156px;
+    margin-top: 300px;
+}
