@@ -11,8 +11,8 @@ nav {
     padding: 60px 0px 72px 0px;
     margin: 0px 70px;
     display: flex;
-    align-items: center;
-    gap: 300px;
+    justify-content: space-around;
+    gap: 260px;
 }
 
 
@@ -80,6 +80,7 @@ header nav ul li a {
 
 .blog-section{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 100px;
     margin: 0px 70px;
@@ -105,7 +106,7 @@ header nav ul li a {
 
 .latest-n-s{
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
 }
 
 .latest-news{
@@ -162,7 +163,7 @@ header nav ul li a {
 
 .three-img-again{
     display: flex;
-    gap: 50px;
+    justify-content: space-around;
 }
 
 
@@ -259,13 +260,10 @@ header nav ul li a {
 
 .footer-links {
     display: flex;
-    gap: 130px;
+    justify-content: space-around;
     margin-top: 184px;
 }
 
-.footer-logo-left{
-    margin-left: 75px;
-}
 
 .footer-links ul li{
     list-style-type: none;

@@ -22,8 +22,8 @@ nav {
     margin: 0px 70px;
     display: flex;
     align-items: center;
-    gap: 300px;
-
+    justify-content: space-around;
+    gap: 260px;
 }
 
 
@@ -54,9 +54,10 @@ header nav ul li a {
 
 /* section-content style */
 
-.section-content{
+.boldo-container{
     display: flex;
-    gap: 172px;
+    justify-content: space-evenly;
+    gap: 130px;
     margin: 0px 70px;
 }
 .section-content .section-title{
@@ -104,7 +105,8 @@ header nav ul li a {
 }
 
 .six-logos{
-    margin: 0px 70px;
+    display: flex;
+    margin: auto;
 }
 
 /* services-section */
