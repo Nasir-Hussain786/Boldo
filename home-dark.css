@@ -21,13 +21,13 @@ nav {
     padding: 56px 0px 64px 0px;
     margin: 0px 70px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    gap: 260px;
+    gap: 280px;
 }
 
 
-nav ul  {
+nav ul {
     list-style-type: none;
     display: flex;
 }
@@ -56,8 +56,8 @@ header nav ul li a {
 
 .boldo-container{
     display: flex;
-    justify-content: space-evenly;
-    gap: 130px;
+    justify-content: center;
+    gap: 139px;
     margin: 0px 70px;
 }
 .section-content .section-title{
@@ -155,110 +155,507 @@ header nav ul li a {
     margin-left: 12px;
 }
 
-.services-section{
+
+/* three images services section */
+
+.three-img {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 99px;
+    margin-top: 72px;
 }
 
-.service-image-container{
-    display: flex;
-    gap: 100px;
-    margin: 80px 0px 185px 0px;
+.items {
+    margin-bottom: 24px;
 }
 
-/* Man one mobile image style */
-
-.man-on-mb-container{
-    position: relative;
-    display: flex;
-    gap: 150px;
-}
-
-.man-on-mb-stat{
-    position: absolute;
-    left: 155px;
-    top: 190px;
-}
-
-.image-on-mb-title{
-    font-size: 36px;
-    line-height: 56px;
-    width: 493px;
+.img-title {
+    font-size: 24px;
+    color: #000000;
     margin-bottom: 40px;
 }
 
-.using-list ul li {
-    list-style-type: none;
+.img-text {
     font-size: 20px;
-    padding-bottom: 24px;
-    display: flex;
-    align-items: center;
+    color: #0A2640;
+    font-weight: 700;
+    margin-right: 12px;
 }
 
-.image-text::before{
-    content: url(./assests/check.png);
+.right-side-arrow {
+    width: 162px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #0A2640;
+    padding-bottom: 8px;
+
+}
+
+/* Content Section style */
+
+.content-container-w-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.content-section {
+    padding: 120px 135px 285px;
+}
+
+.left-side-img{
+    position: relative;
+    width: 462px;
+}
+
+.stat-img {
+    position: absolute;
+    top: 196px;
+    left: 155px;
+
+}
+
+/* Image below text style */
+.image-below-text {
+    font-size: 36px;
+    line-height: 56px;
+    margin: 330px 0px 64px 0px;
+}
+
+.star-text {
+    background-color: #0A2640;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    box-shadow: 2px 2px 10px 0px #ccc;
+
+}
+
+.star-text p {
+    margin-left: 12px;
+}
+
+.eye-icon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-shadow: 2px 2px 10px 0px #ccc;
+}
+
+.eye-icon p {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.sun-icon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 0px #ccc;
+
+}
+
+.sun-icon p {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+/* Image below text style end */
+
+.we-title {
+    width: 493px;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+
+
+.cheak {
+    background-color: #0A2640;
+    padding: 5px;
+    border-radius: 50%;
     margin-right: 27px;
 }
 
-.text-b-space{
-    margin-bottom: 32px;
-}
-
-.start-now-btn{
-    background-color: #0A2640;
-    padding: 16px 56px;
-    border: 2px solid #0A2640;
-    border-radius: 56px;
+.item-text {
     font-size: 20px;
-    color: #fff;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-
-/* start now button bottom style */
-
-.start-btn-bottom{
-    font-size: 36px;
-    width: 453px;
-    line-height: 56px;
-    margin-bottom: 64px;
-}
-
-.start-btn-bottom-container ul li{
-    list-style: none;
+    line-height: 50px;
     margin-bottom: 24px;
     display: flex;
     align-items: center;
 }
 
-.list-img-1::before{
-    content: url(./assests/star.png);
-    margin-right: 14px;
-    padding: 15px;
-}
 
-.list-img-1{
+.start-now {
+    border: 2px solid #0A2640;
+    padding: 16px 56px;
     background-color: #0A2640;
-    width: 500px;
+    border-radius: 56px;
+    font-size: 20px;
     color: #fff;
+    font-weight: 700;
+    margin-top: 56px;
+    cursor: pointer;
 }
 
-.list-img-2::before{
-    content: url(./assests/eye-icon.png);
-    margin-right: 14px;
-    padding: 15px;
+
+/* Woman picture style */
+
+.woman-picture{
+    margin-top: 185px;
 }
 
-.list-img-3::before{
-    content: url(./assests/sun.png);
-    margin-right: 14px;
-    padding: 15px;
+.woman-picture-c{
+    position: relative;
 }
 
-.start-btn-bottom-container{
+.woman-stats{
+    position: absolute;
+    top: 462px;
+    right: 120px;
+}
+
+
+/* enterprise-container */
+
+.enterprise-container{
+    background-color: #0A2640;
+    padding: 96px 156px 96px 94px;
+    margin-bottom: 124px;
+}
+
+/* enterprise-heading */
+
+.enterprise-heading{
+    font-size: 48px;
+    line-height: 72px;
+    width: 700px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* image card one */
+
+.testimonial-card-one{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 280px;
+    height: 260px;
+}
+
+.testimonials-quote{
+    width: 270px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.user-details{
     display: flex;
-    gap: 156px;
-    margin-top: 300px;
+    align-items: center;
+}
+
+.user-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0A2640;
+    line-height: 32px;
+    margin-left: 16px;
+}
+
+.user-role{
+    color: #0A2640;
+    font-size: 14px;
+    margin-left: 16px;
+    font-weight: 400;
+}
+
+/* image card two */
+
+.testimonial-card-two{
+    background-color: #fff;
+    width: 300px;
+    height: 320px;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+/* image card three */
+
+.testimonial-card-three{
+    background-color: #fff;
+    width: 300px;
+    height: 280px;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.three-card-container{
+    display: flex;
+    justify-content: center;    
+    gap: 22px;
+}
+
+
+/* features-section */
+
+.features-content{
+    display: flex;
+}
+.features-intro{
+    font-size: 36px;
+    width: 500px;
+    line-height: 56px;
+    display: flex;
+}
+
+.feature-item{
+    font-size: 20px;
+}
+
+
+/* top image section */
+.top-image{
+    padding-top: 120px  ;
+}
+
+.top-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.image-title{
+    font-size: 36px;
+    line-height: 56px;
+    width: 500px;
+}
+
+.down-arrow-title p{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #777777;
+    width: 493px;
+    padding-bottom: 16px;
+}
+
+.down-arrow-title img{
+    margin-left: 97px;
+}
+
+.down-arrow-text p{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 2px solid #777777;
+    width: 493px;
+    padding-bottom: 16px;
+}
+
+.down-arrow-text img{
+    margin-left: 84px;
+}
+
+.down-arrow-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 56px;
+}
+
+/* our blog style */
+.our-blog-box{
+    margin-top: 156px;
+}
+.our-blog-title{
+    font-size: 20px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.our-blog-text{
+    font-size: 48px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+/*  our blog three images  */
+
+.blog-image-1{
+    margin-bottom: 24px;
+}
+
+.Category{
+    font-size: 16px;
+    color: #0A2640;
+    font-weight: 700;
+}
+
+.color-gray{
+    color: #777777;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.bkvalidation{
+    font-size: 20px;
+    width: 300px;
+    line-height: 32px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+}
+
+.profile-title{
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 79px;
+}
+
+.profile-two{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.proflie-btn{
+    padding: 16px 56px;
+    background-color: #fff;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A2640;
+    margin-bottom: 124px;
+}
+
+.profile-btn-l{
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+}
+
+/*  Footer an enterprise  */
+.an-enterprise-section{
+    width: 1200px;
+    margin: auto;
+    border-radius: 12px;
+}
+.an-enterprise-box{
+    padding: 72px 242px;
+}
+.an-enterprise-section{
+    background-color: #0A2640;
+    background-image: url(./assests/bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 740px;
+}
+
+.an-enterprise-text{
+    font-size: 48px;
+    line-height: 72px;
+    color: #fff;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Two button style */
+.your-email-btn{
+    padding: 12px 158px 12px 32px;  
+    font-size: 20px;
+    border-radius: 240px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-right: 24px;
+}
+
+.start-now-btn{
+    padding: 16px 56px;
+    background-color: #65E4A3;
+    border-radius: 56px;
+    border: 2px solid #65E4A3;
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.two-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* footer links style */
+
+.logo-bottom-content{
+    width: 300px;
+    font-size: 16px;
+    color: #777777;
+    margin-block: 40px 64px;
+    line-height: 28px;
+}
+
+.all-right{
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 117px;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 178px;
+    margin-top: 184px;
+}
+
+
+.footer-links ul li{
+    list-style-type: none;
+    padding-bottom: 32px;
+}
+
+.footer-links ul li a{
+    color: #777777;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#anchor-bold{
+    color: black;
+    font-weight: 700;
+}
+
+
+.span-hiring{
+    background-color: #65E4A3;
+    font-size: 13px;
+    padding: 10px 14px;
+    font-weight: 700;
+    border-radius: 120px;
+    margin-left: 12px;
 }

@@ -18,7 +18,7 @@ nav {
     margin: 0px 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 200px;
 }
 
@@ -150,7 +150,8 @@ header nav ul li a {
 
 .feature-item{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 141px;
 }
 
 .feature-value{
@@ -360,7 +361,8 @@ header nav ul li a {
 
 .footer-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 178px;
     margin-top: 184px;
 }
 

@@ -11,8 +11,9 @@ nav {
     padding: 60px 0px 72px 0px;
     margin: 0px 70px;
     display: flex;
-    justify-content: space-around;
-    gap: 260px;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
 }
 
 
@@ -106,7 +107,8 @@ header nav ul li a {
 
 .latest-n-s{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 .latest-news{
@@ -163,7 +165,8 @@ header nav ul li a {
 
 .three-img-again{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 
@@ -260,7 +263,8 @@ header nav ul li a {
 
 .footer-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 178px;
     margin-top: 184px;
 }
 
