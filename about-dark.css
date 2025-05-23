@@ -84,15 +84,16 @@ header nav ul li a {
 .five-images{
     display: flex;
     justify-content: center;
+    gap: 50px;
     margin-top: -80px;
 }
 
 .two-right-img img{ 
-    margin: 0px 50px 40px 0px;
+    margin-bottom: 40px;
 }
 
 .two-left-img img{
-    margin: 0px 0px 54px 50px;
+    margin-bottom: 40px;
     height: 287px;
     width: 302px;
 }

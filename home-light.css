@@ -296,10 +296,10 @@ header nav ul li a {
 .enterprise-template-container{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 22px;
 }
 .enterprise-template{
-    padding: 100px 135px 95px 84px;
+    padding: 100px 135px 95px 81px;
     background-color: #0A2640;
     position: relative;
 }
@@ -328,15 +328,12 @@ header nav ul li a {
 .align-right{
     display: flex;
     justify-content: flex-end;
-    /* position: absolute; */
-    /* left: 1105px;
-    top: 175px; */
 }
 
 .enterprise-arrows{
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 220px;
 }
 
 /* Enterprise-template three boxes style */

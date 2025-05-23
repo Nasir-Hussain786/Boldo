@@ -320,104 +320,155 @@ header nav ul li a {
 }
 
 
-/* enterprise-container */
 
-.enterprise-container{
+/* Enterprise-template Style */
+
+.enterprise-template-container{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.enterprise-template{
+    padding: 100px 135px 95px 81px;
     background-color: #0A2640;
-    padding: 96px 156px 96px 94px;
-    margin-bottom: 124px;
+    position: relative;
 }
 
-/* enterprise-heading */
-
-.enterprise-heading{
+.enterprise-title{
+    width: 712px;
     font-size: 48px;
     line-height: 72px;
-    width: 700px;
     color: #fff;
-    font-weight: 400;
+    margin-bottom: 73px;
 }
 
-
-/* image card one */
-
-.testimonial-card-one{
+.direction-left{
     background-color: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    width: 280px;
-    height: 260px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 28px;
 }
 
-.testimonials-quote{
+.direction-right{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+    /* position: absolute; */
+    /* left: 1105px;
+    top: 175px; */
+}
+
+.enterprise-arrows{
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+}
+
+/* Enterprise-template three boxes style */
+
+.buzzword-phrase{
+    background-color: #fff;
     width: 270px;
+    height: 250px;
+    border-radius: 12px;
+    padding: 40px;
+}
+.buyer-buzz{
     font-size: 24px;
     line-height: 36px;
-    color: #000000;
-    margin-bottom: 40px;
+    width: 270px;
 }
 
-.user-details{
+.Ellipse-image-text{
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
-.user-name{
+.albus-dumb{
     font-size: 16px;
     font-weight: 700;
     color: #0A2640;
-    line-height: 32px;
-    margin-left: 16px;
+    margin: 0px 0px 6px 16px;
 }
 
-.user-role{
-    color: #0A2640;
+.manager-howarts{
     font-size: 14px;
+    color: #0A2640;
     margin-left: 16px;
-    font-weight: 400;
 }
 
-/* image card two */
+/* second box style */
 
-.testimonial-card-two{
+#hypotheses-box{
     background-color: #fff;
-    width: 300px;
-    height: 320px;
-    padding: 40px;
-    border-radius: 12px;
-}
-
-/* image card three */
-
-.testimonial-card-three{
-    background-color: #fff;
-    width: 300px;
-    height: 280px;
+    width: 270px;
     border-radius: 12px;
     padding: 40px;
 }
 
-.three-card-container{
-    display: flex;
-    justify-content: center;    
-    gap: 22px;
+.hypotheses-box-title{
+    font-size: 24px;
+    width: 250px;
+    line-height: 36px;
 }
 
-
-/* features-section */
-
-.features-content{
+.hypotheses-image{
     display: flex;
-}
-.features-intro{
-    font-size: 36px;
-    width: 500px;
-    line-height: 56px;
-    display: flex;
+    align-items: center;
+    margin-top: 40px;
 }
 
-.feature-item{
-    font-size: 20px;
+.serverus-snape{
+    font-size: 16px;
+    color: #0A2640;
+    font-weight: 700;
+    margin: 0px 0px 6px 16px;
+}
+
+.manager-slytherin{
+    font-size: 14px;
+    color: #0A2640;
+    margin-left: 16px;
+}
+
+/* box three style */
+.release-faceboox-box{
+    background-color: #fff;
+    width: 270px;
+    height: 275px;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.release-facebook-title{
+    font-size: 24px;
+    line-height: 36px;
+    width: 270px;
+}
+
+.release-facebook-img{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.harry-potter{
+    font-size: 16px;
+    color: #0A2640;
+    font-weight: 700;
+    margin: 0px 0px 6px 16px;
+}
+
+.team-leader{
+    font-size: 14px;
+    color: #0A2640;
+    margin-left: 16px;
 }
 
 
